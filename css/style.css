@@ -33,7 +33,7 @@ html {
 
 /* Header */
 .header {
-  width: 100%;
+  width: 320px;
 }
 
 .header__wrapper {
@@ -78,7 +78,7 @@ html {
   flex-direction: column;
   gap: 18px;
 }
-main {
+.main {
   width: 222px;
   height: 876px;
 }
@@ -99,10 +99,14 @@ main {
   font-family: "TT Lakes Medium";
   font-size: 16px;
   letter-spacing: -0.2px;
+  opacity: 1;
+  transition: opacity 0.3s;
 }
+
 .main__link:hover {
   opacity: 0.4;
 }
+
 .main__nav {
   padding-top: 46px;
 }
@@ -157,7 +161,8 @@ main {
 .main__contact-item_active {
   color: #7e7e82;
 }
-body {
+.shadow {
   width: 320px;
-  height: 100vh;
+  height: 1024px;
+  box-shadow: 5px 0 50px rgba(0, 0, 0, 0.3);
 }
