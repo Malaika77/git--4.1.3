@@ -72,17 +72,17 @@ html {
   background-image: url(../img/svg/search.svg);
 }
 
-/* Main */
-.main__list {
+/* menu */
+.menu__list {
   display: flex;
   flex-direction: column;
   gap: 18px;
 }
-.main {
+.menu {
   width: 222px;
   height: 876px;
 }
-.main__item:hover {
+.menu__item:hover {
   content: "";
   width: 4px;
   height: 32px;
@@ -90,11 +90,11 @@ html {
   border-radius: 0 10px 10px 0;
   white-space: nowrap;
 }
-.main__item {
+.menu__item {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.main__link {
+.menu__link {
   padding-left: 24px;
   font-family: "TT Lakes Medium";
   font-size: 16px;
@@ -103,11 +103,11 @@ html {
   transition: opacity 0.3s;
 }
 
-.main__link:hover {
+.menu__link:hover {
   opacity: 0.4;
 }
 
-.main__nav {
+.menu__nav {
   padding-top: 46px;
 }
 .button_call {
@@ -119,7 +119,7 @@ html {
 .button_profile {
   background-image: url(../img/svg/profile.svg);
 }
-.main__wrapper {
+.menu__wrapper {
   display: flex;
   flex-direction: row;
   gap: 37px;
@@ -127,38 +127,38 @@ html {
   padding-top: 268px;
   padding-bottom: 16px;
 }
-.main__contact {
+.menu__contact {
   display: flex;
   flex-direction: column;
   gap: 12px;
   padding-left: 24px;
 }
-.main__contact-list {
+.menu__contact-list {
   display: flex;
   gap: 7px;
 }
-.main__contact-mail {
+.menu__contact-mail {
   font-family: "TT Lakes Medium";
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
   color: black;
 }
-.main__contact-tel {
+.menu__contact-tel {
   font-family: "TT Lakes";
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.6px;
   color: black;
 }
-.main__contact-item {
+.menu__contact-item {
   font-family: "TT Lakes Medium";
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
   color: black;
 }
-.main__contact-item_active {
+.menu__contact-item_active {
   color: #7e7e82;
 }
 .shadow {
